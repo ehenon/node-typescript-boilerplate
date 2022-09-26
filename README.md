@@ -17,3 +17,4 @@ npm run start
 - [Jest](https://jestjs.io/) testing framework 🧪
 - [Husky](https://typicode.github.io/husky/#/) hooks 🐶
 - [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) specification 📚
+- CI [GitHub Actions](https://docs.github.com/en/actions) workflow ⚙️
