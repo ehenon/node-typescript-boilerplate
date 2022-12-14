@@ -1,5 +1,6 @@
-/** @type {import('ts-jest').JestConfigWithTsJest} */
-module.exports = {
+import type { Config } from 'jest';
+
+export default async (): Promise<Config> => ({
   preset: 'ts-jest',
   testEnvironment: 'node',
   collectCoverageFrom: [
@@ -19,4 +20,4 @@ module.exports = {
     './.+/build',
   ],
   testRegex: '.*\\.spec\\.ts$',
-};
+});
